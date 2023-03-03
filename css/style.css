@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#cb1f25;
+    --secondary-color:#fff;
+    --color-black:#000;
+    --font-light:400;
+    --font-medium:500;
+    --font-bold:600;
+    --font-smaller:17px;
+    --font-small:22px;
+    --font-medium:24px;
+    --font-big:34px;
+    --h1:84px;
+    --h2:58px;
+    --h3:34px;  
+}
+
+
+.logo__fixed{
+    position: fixed;
+    top: 40%;
+    left: 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    z-index: 10;
+    padding: 10px 15px;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--secondary-color);
+}
+a{
+    text-decoration: none !important;
+   
+}
+.nav-item{
+    color: #fff;
+}
+.colo__but{
+    padding:1px 30px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 25px;
+    /* width: 50%; */
+    color: var(--secondary-color) !important;
+    border: 2px solid var(--primary-color);
+}
+.colo__but:hover{
+    background-color: var(--secondary-color);
+    color: var(--color-black) !important;
+}
+
+.font__size{
+    font-weight: var(--font-bold);
+    font-size: var(--font-smaller);
+}
+
+.header__nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+.nav-link{
+    color: var(--secondary-color) !important;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.ff{
+    color: white !important;
+}
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.inner__div{
+    position: absolute;
+    top: 0;
+    left: 55px;
+    background-color: rgba(0, 0, 0, .6);
+    color: var(--secondary-color);
+}
+.abc{
+    padding:200px 100px 0 100px;
+    font-size: var(--h2);
+}
+.abcd{
+    font-size: var(--h3);
+}
+.abc1{
+    font-size: var(--h1);
+    color: var(--primary-color);
+}
+.abc2{
+    background: var(--primary-color);
+    padding: 2px 15px;
+    border-radius: 15px;
+}
+.ab{
+    padding-bottom: 10px;
+}
+.read__more{
+    padding: 10px 20px;
+    background-color: var(--color-black);
+    border-radius: 25px;
+    color: white;
+    border: 2px solid;
+}
+.read__more:hover{
+    color: #000;
+    background-color: white;
+}
+.bac_22{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 100px 100px;
+    margin-top: 200px;   
+}
+.main{
+    background-color: gray;
+    padding: 0;
+}
+.sub__img{
+    position: relative;
+    background-color:white;
+    width: 100%;
+    height: 500px;
+}
+.sub__img1{
+    position: absolute;
+    top: 40%;
+    right: -5%;
+}
+
+.colpp{
+    background-color: rgb(220, 218, 218);
+}
+.css122{
+    position: relative;
+}
+.css123{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.exter_div{
+    padding: 100px 0;
+    background-color: rgb(220, 218, 218);
+}
+.ext__div{
+background-color: white;
+}
+.ftt{
+    color: var(--primary-color);
+}
+.mianss{
+    background-color: rgb(220, 218, 218);
+}
+.padding_div{
+    padding-top: 100px;
+}
+.icon__color{
+    color: var(--primary-color);
+    font-size: var(--h2);
+}
+
+.news__1{
+    position: relative;
+    padding-top: 100px;
+}
+
+.blog__news{
+position: absolute;
+top: 10%;
+left:0;
+}
+.back__img{
+    background: url(../img/young-pharmacist-standing-drug-store-1-1-scaled.webp);
+    background-size: 100% 100% !important;
+    padding-top: 500px;
+}
+.inner_bg_div{
+    padding-top: 600px;
+}
+.text__color{
+    color: var(--primary-color);
+}
+.but_contact_but{
+    padding: 10px 25px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: var(--font-small);
+    border-radius: 28px;
+    border: 2px solid var(--primary-color);
+    font-weight: var(--font-bold);
+}
+.but_contact_but:hover{
+    background-color: var(--secondary-color);
+    color: var(--color-black);
+}
+.font_we{
+    font-weight: var(--font-medium);
+}
+.bg__footer{
+    background-color: var(--color-black);
+    color: var(--primary-color);
+}
+
+
+
+.x{
+    width: 100%;
+    background:url(../img/contact-s-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.px1{
+    background: var(--primary-color);
+    opacity: .8;
+}
+.part_1{
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 500px;
+}
+.part_1 .get span{
+    margin-left: 20px;
+    font-size: 22px;
+}
+.part_1 h2{
+    margin-top: 20px;
+    font-size: 58px;
+}
+.part_1 .ico{
+    margin: 20px 0px;
+
+}
+/* .part_1 .ico i{
+} */
+.part_1 .ico span{
+    font-size: 22px;
+    margin-left: 15px;
+}
+.part_1 .ico .span{
+    margin-left: 25px;   
+}
+.part_1 .boder{
+    height: 1px;
+    width: 100%;
+    background: black;
+    margin: 40px 0px;
+}
+.part_1 .open{
+    font-size: 34px;
+}
+.part_1 .monday{
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+.part_2{position: relative;}
+.part_2 .map{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    bottom: -45px;
+    left: -10%;
+
+}

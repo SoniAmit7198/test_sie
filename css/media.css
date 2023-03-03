@@ -1,0 +1,356 @@
+@media (max-width:576px) {
+    .bg__color{
+        background-color: black;
+    }
+    .abc{
+        padding: 200px 30px 0 30px;
+        font-size: 22px;
+    }
+    .abcd{
+        font-size: 22px;
+    }
+    .abc1{
+        font-size: 22px;
+        color: var(--primary-color);
+    }
+    .abc2{
+        background: var(--primary-color);
+        padding: 2px 15px;
+        border-radius: 15px;
+    }
+    .ab{
+        padding-bottom: 10px;
+    }
+    .bac_22{
+        padding: 10px 10px;
+        margin-top: -16px;  
+        /* background-color: aqua;  */
+   }
+   .sub__img1{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+.icon__color{
+    font-size: var(--h3);
+    }
+    .news__1{
+        position: unset;
+    }
+    
+    .blog__news{
+    position: unset;
+   
+    }
+    .back__img{
+        padding-top: 300px;
+    }
+    .inner_bg_div{
+        padding-top: 0px;
+    }
+    
+    
+    .x{
+        width: 100%;
+         margin: 0;
+    }
+    .px1{
+        background: var(--primary-color);
+        opacity: .8;
+        padding-right: 100px;  
+        width: 100vw;
+    
+    }
+    .part_1{
+     margin: 0 !important;
+     padding: 0 !important;
+        width:100% !important;
+
+    }
+    .part_1 .get span{
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    .part_1 h2{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .part_1 .ico{
+        margin: 20px 0px;
+    
+    }
+    
+    .part_1 .ico span{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .part_1 .ico .span{
+        margin-left: 25px;   
+    }
+    .part_1 .boder{
+        height: 1px;
+        width: 100%;
+        background: black;
+        margin: 0px 0px;
+    }
+    .part_1 .open{
+        font-size: 25px;
+    }
+    .part_1 .monday{
+        font-size: 20px;
+        /* padding-bottom: 50px; */
+    }
+    .part_2{position: unset;}
+    .part_2 .map{
+        height: 500px;
+        width: 100%;
+        position: unset;
+       top: 0;
+       left: 0;
+    
+    }
+}
+
+
+
+
+
+@media (min-width:576px) {
+    .bg__color{
+        background-color: black;
+    }
+    .abc{
+        padding:100px 30px 0 30px;
+        font-size: var(--h2);
+    }
+    .abcd{
+        font-size: var(--h3);
+    }
+    .abc1{
+        font-size: var(--h1);
+        color: var(--primary-color);
+    }
+    .abc2{
+        background: var(--primary-color);
+        padding: 2px 15px;
+        border-radius: 15px;
+    }
+    .ab{
+        padding-bottom: 10px;
+    }
+    .bac_22{
+        padding: 20px 0px;
+       margin-top: 200px;   
+   }
+   .icon__color{
+    font-size: var(--h3);
+    }
+    .news__1{
+        position: unset;
+    }
+    
+    .blog__news{
+    position: unset;
+   
+    }
+    .back__img{
+        padding-top: 500px;
+    }
+    .inner_bg_div{
+        padding-top: 0px;
+    }
+    .x{
+        width: 100%;
+        background:url(../img/contact-s-bg.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .px1{
+        background: var(--primary-color);
+        opacity: .8;
+    }
+    .part_1{
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 400px;
+    }
+    .part_1 .get span{
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    .part_1 h2{
+        margin-top: 20px;
+        font-size: 28px;
+    }
+    .part_1 .ico{
+        margin: 20px 0px;
+    
+    }
+    /* .part_1 .ico i{
+    } */
+    .part_1 .ico span{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .part_1 .ico .span{
+        margin-left: 25px;   
+    }
+    .part_1 .boder{
+        height: 1px;
+        width: 100%;
+        background: black;
+        margin: 40px 0px;
+    }
+    .part_1 .open{
+        font-size: 20px;
+    }
+    .part_1 .monday{
+        font-size: 12px;
+        padding-bottom: 50px;
+    }
+    .part_2{position: relative;}
+    .part_2 .map{
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        bottom: -45px;
+        left: -10%;
+    
+    }
+
+}
+@media (min-width:786px){
+    .bac_22{
+        padding: 50px 50px;
+       margin-top: 200px;   
+   }
+   .icon__color{
+    font-size: var(--h3);
+    }
+    .news__1{
+        position: relative;
+        padding-top: 100px;
+    }
+    
+    .blog__news{
+    position: absolute;
+    top: 10%;
+    left:0;
+    }
+    .back__img{
+        padding-top: 500px;
+    }
+    .inner_bg_div{
+        padding-top: 600px;
+    }
+  
+    .part_1{
+        margin-left: 50px;
+           }
+    .part_1 .get span{
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    .part_1 h2{
+        font-size: 38px;
+    }
+    .part_1 .ico span{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    
+   
+    .part_1 .open{
+        font-size: 24px;
+    }
+    .part_1 .monday{
+        font-size: 15px;
+    }
+}
+
+@media (min-width:992px) {
+    .bg__color{
+        background-color: transparent;
+    }
+    .abc{
+        padding:200px 100px 0 100px;
+        font-size: var(--h2);
+    }
+    .abcd{
+        font-size: var(--h3);
+    }
+    .abc1{
+        font-size: var(--h1);
+        color: var(--primary-color);
+    }
+    .abc2{
+        background: var(--primary-color);
+        padding: 2px 15px;
+        border-radius: 15px;
+    }
+    .ab{
+        padding-bottom: 10px;
+    }
+    .bac_22{
+        padding: 50px 50px;
+       margin-top: 200px;   
+   }
+   .icon__color{
+    font-size: var(--h2);
+    }
+
+   
+    .part_1{
+        margin-left: 50px;
+           }
+    .part_1 .get span{
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    .part_1 h2{
+        font-size: 38px;
+    }
+    .part_1 .ico span{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    
+   
+    .part_1 .open{
+        font-size: 24px;
+    }
+    .part_1 .monday{
+        font-size: 15px;
+    }
+
+}
+@media (min-width:1024px){
+    .bac_22{
+         padding: 100px 100px;
+        margin-top: 200px;   
+    }
+    
+    .part_1{ 
+        margin-left: 120px;
+    }
+   
+    .part_1 h2{
+        font-size: 48px;
+    }
+    .part_1 .ico{
+        margin: 20px 0px;
+    
+    }
+  
+    .part_1 .ico span{
+        font-size: 18px;
+    }
+    .part_1 .open{
+        font-size: 30px;
+    }
+    .part_1 .monday{
+        font-size: 18px;
+        
+    }
+    
+}
